@@ -1,0 +1,19 @@
+{
+    "directories": [
+        "app",
+        "bootstrap",
+        "config",
+        "resources",
+        "vendor"
+    ],
+    "files": [
+        "composer.json"
+    ],
+    "exclude-dev-files": false,
+    "exclude-composer-files": false,
+    "compression": "GZ",
+    "compactors": [
+        "KevinGH\\Box\\Compactor\\Json",
+        "KevinGH\\Box\\Compactor\\Php"
+    ]
+}
